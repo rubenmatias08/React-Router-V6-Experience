@@ -15,16 +15,16 @@ const ContactsDetails = () => {
    It will redirect us to (Home) , which has the path ("/")
    */
     const handleContact = () => {
-        console.log(`Contacto enviado para ${id}`)
+        console.log(`Sent to ${id}`)
         return navigate("/")
     }
 
     
     return(
         <div>
-            <h2>Exibindo mais informaçáo do contacto {id}</h2>
+            <h2>Displaying more contact information {id}</h2>
             {/*onClick event will activate the function (handleContact) */}
-            <button onClick={handleContact}>Envie mensagem</button>
+            <button onClick={handleContact}>Send a message</button>
         </div>
 
     )
